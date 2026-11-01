@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "itemstackmarker",
+  "version": "${version}",
+  "name": "Item Stack Marker",
+  "description": "Draws a tall white line through every dropped item with its stack count above it. Client-side only.",
+  "authors": [],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.itemstackmarker.ItemStackMarkerClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
